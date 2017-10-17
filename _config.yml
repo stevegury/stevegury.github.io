@@ -1,1 +1,12 @@
-theme: jekyll-theme-minimal
+name: Steve Gury's blog
+url: https://stevegury.github.io
+
+permalink: /:year-:month-:day/:title.html
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+  fenced_code_blocks: true
+
+plugins: [jekyll-paginate]
+paginate: 5
